@@ -16,7 +16,6 @@
     "toast"
   ],
   "scripts": {
-    "prepare": "husky install",
     "build": "rm -rf ./lib && tsc",
     "prettier": "./node_modules/.bin/prettier --write",
     "lint": "./node_modules/.bin/eslint --fix",
